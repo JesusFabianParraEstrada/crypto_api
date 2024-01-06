@@ -1,7 +1,7 @@
 class CoinApiWebSocketJob < ApplicationJob
   queue_as :default
 
-  def perfom(*args)
-    CoinApiWebSocket.connect
+  def perform(*args)
+    CoinApiService.start
   end
 end

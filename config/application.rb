@@ -31,6 +31,9 @@ module CryptoApi
 
     config.autoload_paths += %W["#{config.root}/app/**/*"]
     config.autoload_paths += %W(#{config.root})
+    config.after_initialize do
+      CoinApiService.start
+    end
 
     config.active_job.queue_adapter = :sidekiq
   end
