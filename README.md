@@ -1,24 +1,21 @@
-# README
+# CRIPTO-API-Channel
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Requisitos
 
-* System dependencies
+- Ruby 3.2.2
+- Rails 7.1.2
+- PostgreSQL
+- Redis
 
-* Configuration
+## Configuración Inicial
 
-* Database creation
+Descripción de cómo configurar el entorno de desarrollo. Por ejemplo:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+git clone [url-del-repositorio]
+cd [nombre-del-repositorio]
+bundle install
+yarn install
+rails db:create db:migrate
