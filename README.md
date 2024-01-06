@@ -11,11 +11,11 @@
 
 ## Configuración Inicial
 
-Descripción de cómo configurar el entorno de desarrollo. Por ejemplo:
+Descripción de cómo configurar el entorno de desarrollo:
 
 ```bash
-git clone [url-del-repositorio]
-cd [nombre-del-repositorio]
+git clone git@github.com:JesusFabianParraEstrada/crypto_api.git
+cd cripto_api
 bundle install
 yarn install
 rails db:create db:migrate
